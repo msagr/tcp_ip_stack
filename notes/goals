@@ -1,0 +1,35 @@
+**Part A**
+
+1. Setting up Generic Graph
+2. Setting up Network Topology
+3. Integrating Command Line Interface
+4. Packet Exchange Simulation Infra Setup
+
+**Part B**
+
+Use the network topology to implement :-
+
+1. Layer 2 - ARP, MAC Forwarding
+2. Layer 3 - Route Installation, L3 Routing
+3. Application - Ping, Traccroute (To test functionality)
+
+**Part C**
+
+Dynamic Construction of Layer 3 Routing Table (How the routers actually populate their table dynamically)
+
+**Possible Extensions -**
+
+1. Implament VLAN functionality.
+2. IP Fragmentation
+3. Implement protocols like IP-in-IP encapsulation, Tunnels, ..  etc.
+
+4. Demonstrate any networking functionality.
+
+**Goals**
+
+1. Implement Layer2 and Layer3 functionality from Scratch.
+2. Implement all logic to parse packet content, take decision what to do with the packet.
+3. Implement traffic forwarding pipeline.
+4. We shall be building up the topology where nodes would represent Layer3 routers and/or L2 switch or Hub. In other words, we shall be writing simplified code for L2 switching and L3 routing.
+
+5. We shall be using CLI to configure our nodes (routers and switches)

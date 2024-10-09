@@ -1,0 +1,34 @@
+**Generic Graph Construction**
+
+1. First, we shall develop a library using which we can create static graph.
+
+2. A static graph, as we know, consists of nodes, edges, cost of edges.
+
+3. This graph can be used to implement for other purposes :
+    -> Network Topology 
+    -> Routing protocols development
+    -> Practice Graph algorithms (Dijkstra etc)
+
+4. As of now, graph nodes are simple nodes, they shall not represent routing devices.
+
+5. In next section, we shall extend our graph to represent Network Topology.
+
+----------------------------------------------------------------
+
+1. A graph is a collection of nodes.
+
+
+2. Every node will have empty slot into which the interfaces of this link could be inserted. An interface has a :
+
+    a. Name
+    b. Owning node
+    c. A wire (or link)
+
+3. A link is defined as pair of interfaces.
+
+4. A node has a :
+    
+    a. Name
+    b. Set of emoty interface slots
+
+**Tip** - Try to model Data structure such that it depicts the organization of information in real physical world.
